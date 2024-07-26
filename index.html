@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>cardapio digital</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="title">
+        <h1>Fast fud max</h1>
+    </header>
+
+  <!-- Apresentação do cardápio -->
+  <div id="menu">
+    <!-- Categoria Hambúrgueres -->
+    <div class="categoria">
+      <h2  class="title-item">Hambúrgueres</h2>
+        <label class="item1"><input  type="checkbox" name="item" value="hamburguer-simples - R$10,00">Hambúrguer Simples - R$10,00</label><br>
+        <label class="item1"><input   type="checkbox" name="item" value="hamburguer-vegetariano - R$18,00">Hamburguer Vegetariano - R$18,00</label> <br>
+        <label  class="item1"><input   type="checkbox" name="item" value="hamburguer-integral - R$15,00">Hambúrguer Integral - R$15,00</label> <br>
+      <!-- Adicione mais itens aqui -->
+    </div>
+    <!-- Categoria Salgados -->
+    <div class="categoria">
+      <h2 class="title-item">Salgados</h2>
+      <label  class="item1"><input   type="checkbox" name="item" value="Coxinha - R$12,00">Coxinha R$12,00</label> <br>
+      <label  class="item1"><input   type="checkbox" name="item" value="Pastel -R$8,00">Pastel - R$8,00</label> <br>
+      <label  class="item1"><input  type="checkbox" name="item" value="Bolinhas de queijo - R$10,00">Bolinhas de queijo - R$10,00</label> <br>
+      <!-- Adicione itens de salgados aqui -->
+    </div>
+    <!-- Categoria Bebidas -->
+    <div class="categoria">
+      <h2  class="title-item">Bebidas</h2>
+      <label  class="item1"><input type="checkbox" name="item" value="Suco - R$6,00">Suco - R$6,00</label><br>
+      <label  class="item1"><input type="checkbox" name="item" value="Refrigerante - R$9,00">Refrigerante - R$9,00</label><br>
+      <label  class="item1"><input type="checkbox" name="item" value="Água - R$4,00">Água - R$4,00</label> <br>
+      <!-- Adicione itens de bebidas aqui -->
+    </div>
+  </div>
+  <div>  <button id="adicionar-itens" class="botao" onclick="adicionarItensSelecionados()">Adicionar Itens Selecionados</button></div>
+    <hr>
+  <!-- Gerenciamento do pedido -->
+  <div id="carrinho">
+    <h2>Carrinho de Compras</h2>
+    <!-- Itens selecionados serão listados aqui -->
+  </div>
+
+  <!-- Botões de ação -->
+  <button class="botao" onclick="limparCarrinho()">Limpar Carrinho</button>
+  <button class="botao" onclick="finalizarPedido()">Finalizar Pedido</button>
+  <button class="botao" onclick="removerItem()">Remover item</button>
+
+  <!-- Finalização do pedido -->
+  <div id="finalizacao" style="display:none;">
+    <!-- Opções de pagamento e formulário de entrega serão inseridos aqui -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
