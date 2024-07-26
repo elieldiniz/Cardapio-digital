@@ -1,9 +1,14 @@
-Fast Food Max - Sistema de Menu Digital
+
+# Fast Food Max - Sistema de Menu Digital
+
 Visão Geral
+
 Este projeto é um sistema de menu digital desenvolvido para fins acadêmicos. Ele permite que os usuários selecionem itens de um cardápio, adicionem esses itens a um carrinho de compras e finalizem seus pedidos. O sistema inclui funcionalidades como seleção de itens, resumo do pedido, seleção de método de pagamento e confirmação do pedido.
 
-Funcionalidades
-Seleção de Itens: Os usuários podem navegar por diferentes categorias, como hambúrgueres, salgados e bebidas, selecionando itens para adicionar ao carrinho.
+
+## Funcionalidades
+
+Os usuários podem navegar por diferentes categorias, como hambúrgueres, salgados e bebidas, selecionando itens para adicionar ao carrinho.
 Carrinho de Compras: Os itens selecionados são exibidos no carrinho, juntamente com o preço total.
 Finalização do Pedido: Os usuários são solicitados a fornecer seu nome, endereço de entrega e a selecionar um método de pagamento (Cartão de Crédito, Cartão de Débito, Pix).
 Resumo e Confirmação do Pedido: Um resumo do pedido é exibido para confirmação final, incluindo detalhes dos itens, custo total e informações do cliente.
@@ -35,5 +40,10 @@ Use o menu para selecionar itens, visualizar o carrinho e finalizar o pedido.
 Contribuições
 Este projeto foi desenvolvido como parte de um exercício acadêmico. Contribuições para melhorar o código, adicionar funcionalidades ou integrar um sistema backend são bem-vindas.
 
-Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+
+
+
+## Licença
+Licença Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+[MIT](https://choosealicense.com/licenses/mit/)
